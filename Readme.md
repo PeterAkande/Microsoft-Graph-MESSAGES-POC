@@ -11,3 +11,12 @@ An AZURE Account is needed an an app must be registered.
 
 Bonus:
 Jira API: https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/#about
+
+Create a file config.cfg at the root 
+
+```cfg
+[azure]
+clientId = CLIENT_ID
+clientSecret = CLIENT_SECRET
+tenantId = TENANT_ID
+```
